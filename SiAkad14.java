@@ -9,13 +9,13 @@ public class SiAkad14 {
         byte absen;
         double nilaiKuis, nilaiTugas, nilaiUjian, nilaiAkhir;
 
-        System.out.println("Masukkan nama");
+        System.out.println("Masukkan Nama");
         nama = sc.nextLine();
-        System.out.println("Masukkan nim");
+        System.out.println("Masukkan Nim");
         nim = sc.nextLine();
-        System.out.println("Masukkan kelas");
+        System.out.println("Masukkan Kelas");
         kelas = sc.nextLine().charAt(0);
-        System.out.println("Masukkan absen");
+        System.out.println("Masukkan Absen");
         absen = sc.nextByte();
 
         System.out.println("Masukkan nilai Kuis: ");
