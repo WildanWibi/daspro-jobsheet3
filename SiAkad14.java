@@ -9,26 +9,26 @@ public class SiAkad14 {
         byte absen;
         double nilaiKuis, nilaiTugas, nilaiUjian, nilaiAkhir;
 
-        System.out.println("Masukkan Nama");
+        System.out.print("Masukkan Nama: ");
         nama = sc.nextLine();
-        System.out.println("Masukkan Nim");
+        System.out.print("Masukkan Nim: ");
         nim = sc.nextLine();
-        System.out.println("Masukkan Kelas");
+        System.out.print("Masukkan Kelas: ");
         kelas = sc.nextLine().charAt(0);
-        System.out.println("Masukkan Absen");
+        System.out.print("Masukkan Absen: ");
         absen = sc.nextByte();
 
-        System.out.println("Masukkan nilai Kuis: ");
+        System.out.print("Masukkan nilai Kuis: ");
         nilaiKuis = sc.nextDouble();
-        System.out.println("Masukkan nilai Tugas: ");
+        System.out.print("Masukkan nilai Tugas: ");
         nilaiTugas = sc.nextDouble();
-        System.out.println("Masukkan nilai Ujian: ");
+        System.out.print("Masukkan nilai Ujian: ");
         nilaiUjian = sc.nextDouble();
 
         nilaiAkhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3;
 
         System.out.println("Nama: " + nama + " NIM: " + nim);
-        System.out.println("Kelas:" + kelas + "Absen: " + kelas);
+        System.out.println("Kelas: " + kelas + " Absen: " + absen);
         System.out.println("Nilai Akhir: " + nilaiAkhir);
 
         sc.close();
